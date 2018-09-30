@@ -1,0 +1,16 @@
+.fam{
+    max-width: 500px;
+    padding: 20px;
+    margin-top: 10px;
+    float: left;
+}
+
+body{
+    margin: 0% 10%;
+}
+
+
+button{
+    clear: both;
+    float: left;
+}
