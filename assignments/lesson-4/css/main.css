@@ -23,8 +23,21 @@ header {
     float: left;
 }
 
+.conditions.col-3 {
+    background-color: #084C72;
+    float: right;
+    width: 281px;
+    margin-top: 20px;
+    box-shadow: 1px 1px 25px #000;
+}
+
+div.conditions p {
+    float: left;
+    margin: 49px 10px;
+}
+
 img.condition {
-    width: 50%;
+    width: 44%;
     float: left;
 }
 
