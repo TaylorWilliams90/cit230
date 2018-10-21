@@ -45,3 +45,22 @@ img.logo {
     width: 280px;
     float: left;
 }
+
+nav {
+    background-color: #084C72;
+    margin: 0;
+}
+
+ul.nav {
+    margin: 10px;
+    line-height: 50px;
+}
+ul.nav li {
+    float: left;
+    margin: 0 15px;
+    list-style: none;
+}
+ul.nav li a {
+    color: #fff;
+    text-decoration: none;
+}
