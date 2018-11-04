@@ -2,6 +2,9 @@ nav {
     background-color: #084C72;
     margin: 0;
 }
+button#showPhoneNav {
+    display: none;
+}
 
 ul.nav {
     margin: 10px;
