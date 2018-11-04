@@ -10,7 +10,7 @@ body {
 header, nav, main, footer { 
 }
 header {
-    margin-left: 10px;
+    margin-left: 50px;
 }
 header h1 {
     font-size: 1.9rem;
