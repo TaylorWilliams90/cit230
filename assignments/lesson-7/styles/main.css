@@ -7,8 +7,6 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-header, nav, main, footer { 
-}
 header {
     margin-left: 50px;
 }
@@ -52,12 +50,10 @@ nav ul.hide {
     display: none;
 }
 
-nav ul li {
-}
 
 nav ul li a {
     display: inline-flex;
-    background-color: #000c26;
+    background-color: #3A8BC2;
     color: #ffffff;
     text-decoration: none;
     font-size: 3.0vw;
@@ -75,7 +71,6 @@ nav ul li a:hover {
     color: rgb(146, 239, 255);
 }
 
-main {}
 main h2 {
     font-size: 1.5rem;
     text-align: center;
@@ -128,8 +123,7 @@ main figure img { width: 100%; }
     width: 100%;
     justify-content: space-around;
 }
-.highlow p{
-}
+
 .conditions {
     display: flex;
     flex-direction: column;
@@ -173,8 +167,6 @@ footer {
     font-size: .7rem;
     padding-top: 5px;
 }
-footer aside {}
-footer>p {}
 
 /* Gallery Specifics */
 #gallery {
@@ -187,8 +179,7 @@ footer>p {}
     display: grid;
     grid-gap: 7px;
 }
-#gallery figure img {
-}
+
 #gallery figure figcaption {
     text-align: center; 
 }
