@@ -36,7 +36,7 @@ nav {
     align-items: flex-start;
     flex-shrink: 0;
     width: 100%;
-    background-color: #000c26;
+    background-color: #3A8BC2;
     margin-bottom: 10px;
     overflow:auto;
 }
@@ -58,21 +58,21 @@ nav ul li {
 nav ul li a {
     display: inline-flex;
     background-color: #000c26;
-    color: #fc9928;
+    color: #ffffff;
     text-decoration: none;
     font-size: 3.0vw;
     padding: 10px;
     width: 100%;
 }
 nav ul li.active a {
-    color: goldenrod;
+    color: rgb(146, 239, 255);
 }
 nav ul li a:checked, nav ul li a:visited {
-    color: #fc9928;
+    color: #ffffff;
 }
 nav ul li a:hover {
     background-color: #021847;
-    color: #fc9928;
+    color: rgb(146, 239, 255);
 }
 
 main {}
@@ -166,7 +166,7 @@ footer {
     display: inline-flex;
     flex-direction: column;
     background-color: #000c26;
-    color: #fc9928;
+    color: #3A8BC2;
     width: 100%;
     text-align: center;
     justify-content: center;
@@ -193,5 +193,5 @@ footer>p {}
     text-align: center; 
 }
 #gallery figure a {
-    color: #6d39ba;
+    color: #1b3886;
 }
