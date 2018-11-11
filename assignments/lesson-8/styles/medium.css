@@ -4,7 +4,7 @@
     nav button { display:none; }  /* hamburger button does not need to be shown */
     
     header img {
-        
+        width: 19%;
     }
 
     header h1 {
@@ -23,16 +23,13 @@
         display: inline-flex;
     }
     
-    ul li {
-        display: inline-flex;
-    }
 
     nav ul li a {
         font-size: 1.2rem;
     }
     
     a:hover, a:visited, a:active, a {
-        color: #fc9928;
+        color: rgb(146, 239, 255);
         text-decoration: none;
         list-style-type: none;
     }
@@ -52,8 +49,6 @@
     
     .current { 
         text-align: center;
-    }
-    .highlow {
     }
     .highlow p{
         text-align: center;
@@ -86,7 +81,7 @@
     .forecast table {
         width: 100%;
         background-color: #000c26;
-        color: #fc9928;
+        color: #fff;
         justify-content: center;
     }
     .forecast table thead tr th {
@@ -104,9 +99,7 @@
         padding: 0;
         margin: 0;
     }
-    .town-article p {
 
-    }
     .town-article p img {
         width: 100%;
         padding: 0;
@@ -116,10 +109,4 @@
     #gallery {
         grid-template-columns: repeat(2, 1fr);
     }
-    
-    /*Storm Center Specifics*/ 
-    #strm-cntr form textarea {
-    width: 50%;   
-}
     }
-

@@ -1,7 +1,7 @@
 @media only screen and (min-width: 64em) {
   /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
 header img {
-   height: 11vw;
+   width: 13%;
 }
     
 figure img {
@@ -95,11 +95,4 @@ figure img {
 #gallery figure:hover {
     box-shadow: 5px 5px 10px #044068;
 }
-    
-/*Storm Center Specifics*/    
-#strm-cntr form textarea {
-    width: 30%;   
-}    
 }
-
-
