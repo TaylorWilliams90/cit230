@@ -1,6 +1,6 @@
 var main = document.querySelector('.home-page')
-var imgArray = ["images/main-page/franklin-main.jpg", "images/main-page/greenville-main.jpg", "images/main-page/placerton-main.jpg",
-                "images/main-page/springfield-main.jpg"]
+var imgArray = ["images/main-page/preston-main.jpg", "images/main-page/fish-main.jpg",
+                "images/main-page/soda-main.jpg"]
 
 var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 var request = new XMLHttpRequest();
