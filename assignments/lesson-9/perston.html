@@ -35,31 +35,31 @@
   </nav>
   <main>
     <div class="sideBySide">
-        <figure>
-          <img src = "images/perston-wide/perston-original.jpeg" alt = "Preston" sizes = "100vw"
-               srcset = "images/perston-wide/perston-small.jpeg 500w,
-                         images/perston-wide/perston-large.jpeg 1100w">
-        </figure>
-        <section class="weather">
-            <h2>Preston</h2>
-            <h3>Weather Summary</h3>
-            <div class="current">
-                <p class = "status">Sunny</p>
-            <picture>
-                <img src = "images/Sunny.jpg" alt = "sky-current">
-            </picture>
-          </div>  
-          <div class="highlow">
-            <p>High: 90&deg;F</p>  
-            <p>Low: 66&deg;F</p>  
-          </div> 
-          <div class="conditions">
-            <p>Precipitation: 0&#37;</p>  
-            <p>Wind Speed: 5&nbsp;mph,&nbsp;SW</p>
-            <p id="windChill"></p>
-          </div>           
-        </section>
-    </div>
+      <figure>
+        <img src = "images/perston-wide/perston-original.jpeg" alt = "preston" sizes = "100vw"
+             srcset = "images/perston-wide/perston-small.jpeg 500w,
+                       images/perston-wide/perston-large.jpeg 1100w">
+      </figure>
+      <section class="weather">
+          <h2>Franklin</h2>
+          <h3>Weather Summary</h3>
+          <div class="current">
+              <p id="status"></p>
+          <picture>
+              <img id="statusImg" alt = "sky-current">
+          </picture>
+        </div>  
+        <div class="highlow">
+          <p id="temp"></p>  
+          <p id="txtWeather"></p>  
+        </div> 
+        <div class="conditions">
+          <p id="txtWind"></p>  
+          <p id="windSpeed"></p>
+          <p id="windChill"></p>
+        </div>           
+      </section>
+  </div>
         
     <section class="forecast">
       <h3>10 Day Forecast</h3>
