@@ -1,10 +1,10 @@
 var main = document.querySelector('.home-page')
 var imgArray = ["images/main-page/franklin-main.jpg", "images/main-page/fish-main.jpg", "images/main-page/greenville-main.jpg", "images/main-page/preston-main.jpg", 
-                "images/main-page/soda-main.jpg" , "images/main-page/fish-main.jpg", "images/main-page/greenville-main.jpg",]
+"images/main-page/soda-main.jpg" , "images/main-page/fish-main.jpg", "images/main-page/greenville-main.jpg",]
 
 var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
 var request = new XMLHttpRequest();
-request.open('GET', requestURL);
+request.open('GET', requestURL, true);
 request.responseType = 'json';
 request.send();
 
@@ -18,10 +18,10 @@ function listTowns(jsonObj)
 {
     var town = jsonObj['towns'];
     
-    for (var i = 0; i < town.length; i++)
+    for (var i = 1; i < 6; i++)
     {
-        if ( i == 2 )
-            i = 2;
+        if (i===2) {continue;}
+        if (i===3) {continue;}
         else{
         var myArticle = document.createElement('article');
         var myH2 = document.createElement('h2');
@@ -55,9 +55,6 @@ function listTowns(jsonObj)
         
         myArticle.appendChild(myList);
         myArticle.appendChild(myImage);
-        
-        if (i == 0 || i == 5)
-        myArticle.className = "reverse";
         
         main.appendChild(myArticle);
         }

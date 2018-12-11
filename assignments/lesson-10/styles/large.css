@@ -22,6 +22,7 @@ nav ul li a {
  
 .sideBySide {
     flex-direction: column;
+    display: block;
 }
 figure img {
     margin-top: 0;
@@ -57,7 +58,7 @@ figure img {
 .highlow p {
     width: 100%;
     font-size: 1.2rem;
-    line-height: 75%;
+    line-height: 100%;
 }
 
 .conditions {
