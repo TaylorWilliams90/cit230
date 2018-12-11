@@ -1,8 +1,8 @@
 var weatherConditions = new XMLHttpRequest();
 var weatherForecast = new XMLHttpRequest();
 
-weatherConditions.open('GET', 'https://api.openweathermap.org/data/2.5/weather?zip=83263,us', true);
-weatherForecast.open('GET', 'https://api.openweathermap.org/data/2.5/weather?zip=83263,us', true);
+weatherConditions.open('GET', 'https://api.wunderground.com/api/cc7606ac5fc21a84/conditions/q/OR/Springfield.json', true);
+weatherForecast.open('GET', 'https://api.wunderground.com/api/cc7606ac5fc21a84/forecast/q/OR/Springfield.json', true);
 
 weatherConditions.send();
 weatherForecast.send();
