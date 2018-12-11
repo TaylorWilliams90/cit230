@@ -1,8 +1,8 @@
 var weatherConditions = new XMLHttpRequest();
 var weatherForecast = new XMLHttpRequest();
 
-weatherConditions.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?id=83263', true);
-weatherForecast.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?id=83263', true);
+weatherConditions.open('GET', 'https://api.openweathermap.org/data/2.5/weather?zip=83263,us', true);
+weatherForecast.open('GET', 'https://api.openweathermap.org/data/2.5/weather?zip=83263,us', true);
 
 weatherConditions.send();
 weatherForecast.send();
