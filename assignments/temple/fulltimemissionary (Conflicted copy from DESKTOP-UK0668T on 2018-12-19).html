@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="This is for CIT 250">
+    <meta name="author" content="Taylor Williams">
+
+    <title>CIT 230 Temple Inn & Suites | Taylor Williams </title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#datepicker" ).datepicker();
+        } );
+    </script>
+
+  </head>
+    <body>
+        <header class="homepage">
+            <div class="container">
+
+            <img src="img/logo.png" alt="logo" class="logo">
+            <nav>
+                <div class="container">
+                    <button onclick="toggleNavMenu()">&#9776;</button>
+                    <ul id="primaryNav" class="hide">
+                        <li>
+                        <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                        <a href="temple.html">Temple</a>
+                        </li>
+                        <li>
+                        <a href="reservation.html">Reservation</a>
+                        </li>
+                        <li class="dropdown"><a href="#" class="dropdown">Services</a>
+                            <ul class="subnav">
+                                <li><a href="/reception.html">reception</a></li>
+                                <li><a href="/fttm.html">full-time temple missionary</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                        <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+                <div class="bookButton">
+                    <button><a href="#book">Book Now</a></button>
+                </div>
+                
+            </div>
+        </header>
+        
+        <main class="container">
+            <section id="page">
+            <center>
+                <h1>Temple Inn & Suites</h1>
+            </center>
+           <div class="half">
+               <p>
+                    Come and stay at the Temple Inn & Suites. Here you will be able to see
+                    and be near the temple all the time. Here we have rooms for all to stay
+                    close to the Lords house.
+               </p>
+               <h4>
+                   Features Below:
+               </h4>
+               <div class="data half">
+
+               </div>
+           </div>
+        </section>
+        <section id="book">
+            <div>
+                <div class="pic">
+                    <img src="img/formPic.jpg">
+                </div>
+                <div class="form">
+                    <form>
+                        <fieldset>
+                            <legend>BOOK WITH US</legend>
+                            <p>
+                                <label>Full Name</label>
+                                <input type="text" placeholder="Full Name" id="f-name">
+                            </p>
+                            <p>
+                                <label> Email</label> 
+                                <input type="email" placeholder="name@email.com" id="f-email">
+                            </p>
+                            <p>
+                                    <label> Phone Number</label> 
+                                    <input type="tel" placeholder="111-111-1111" id="f-phone">
+                                </p>
+                            <p>
+                                <label> Dates to Book</label>
+                                <input type="text" id="datepicker">
+                            </p>
+                            <p>
+                                    
+                                    <input type="submit" value="Submit">
+                            </p>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.404901421889!2d-77.09957628464709!3d38.98325447955745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9ac9d57b%3A0x87bb33ecfde5f7f0!2s4830+Montgomery+Ln+%23200%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1545201893307" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+
+        </main>
+        <footer>
+            <p>© Taylor Williams • Temple Inn & Suites</p>
+        </footer>
+        <script src="scripts/hamburger.js"></script>
+    </body>
+</html>

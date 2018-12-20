@@ -1,0 +1,122 @@
+nav {
+    margin: 0;
+    width: 600px;
+        border-radius: 20px;
+}
+nav div button {
+    display: none;
+}
+
+li.dropdown:hover ul.subnav {
+    display: block;
+    position: absolute;
+    min-width: 160px;
+    text-align: center;
+}
+
+ul.subnav{
+    display: none;
+}
+
+ul.nav {
+    margin: 10px;
+    line-height: 50px;
+}
+ul.nav li {
+    float: left;
+    margin: 0 15px;
+    list-style: none;
+}
+ul.nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+img.hero {
+    display: inherit;
+    position: relative;
+    width: 100%;
+}
+
+.divHero {
+    clear: both;
+    float: none;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+section.weathersummary {
+    margin-top: -316px;
+    z-index: 110;
+    width: 30%;
+    background-color: lightblue;
+    position: relative;
+    padding: 20px 47px;
+    line-height: 7px;
+    margin-left: 20px;
+    height: auto;
+}
+
+section.forecast {
+    background-color: darkblue;
+    color: white;
+}
+
+section.forecast h3 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+.bookButton button {
+    padding: 10px 36px;
+    border-radius: 7px;
+    background-color: blue;
+    color: white;
+    border: none;
+    box-shadow: 1px 3px 18px #000;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.bookButton {
+    position: absolute;
+    right: 320px;
+    top: 400px;
+}
+
+label {
+    clear: both;
+    float: left;
+    width: 100px;
+}
+
+.form {
+    width: 45%;
+    float: left;
+    padding: 20px;
+}
+
+.pic {
+    width: 46%;
+    float: left;
+    padding-left: 30px;
+}
+
+.pic img {
+    width: 100%;
+}
+.half {
+    padding: 10px;
+    width: 47%;
+    float: left;
+}

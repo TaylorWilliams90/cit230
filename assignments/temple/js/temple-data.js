@@ -1,7 +1,7 @@
 var main = document.querySelector('.home-page')
 
 
-var requestURL = '/temples.json';
+var requestURL = 'http://dudedownshift.com/temple/data/temples.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL, true);
 request.responseType = 'json';
@@ -15,7 +15,7 @@ request.onload = function()
 
 function listTemples(jsonObj) 
 {
-    var temples = jsonObj['towns'];
+    var temple = jsonObj['towns'];
     
     for (var i = 1; i < 6; i++)
     {
@@ -29,11 +29,11 @@ function listTemples(jsonObj)
         var myPara2 = document.createElement('p');
         var myPara3 = document.createElement('p');
         
-        myH2.textContent = temples[i].name;
-        myH3.textContent = temples[i].address;
-        myPara1.textContent = "Phone: " + templesn[i].tel;
-        myPara2.textContent = "Services: " + temples[i].service;
-        myPara3.textContent = "Times: " + temples[i].schedule;
+        myH2.textContent = temple[i].name;
+        myH3.textContent = temple[i].address;
+        myPara1.textContent = "Phone: " + temple[i].tel;
+        myPara2.textContent = "Services: " + temple[i].service;
+        myPara3.textContent = "Times: " + temple[i].schedule;
         
     
         myArticle.appendChild(myH2);

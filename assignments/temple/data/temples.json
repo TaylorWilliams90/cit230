@@ -1,0 +1,35 @@
+{
+    "temple" : [
+    {
+        "name": "Bountiful Utah Temple",
+        "address": "640 S Bountiful Blvd Bountiful UT 84010-1394 United States",
+        "tel":  "801-296-2100",
+        "service": "Clothing rental available, Cafeteria available, No patron housing available, Distribution center nearby",
+        "schedule": ["6:30 PM, 7:00 PM, 7:30 PM, 8:15 PM"]
+    },
+    {
+        "name": "Bountiful Utah Temple",
+        "address": "640 S Bountiful Blvd Bountiful UT 84010-1394 United States",
+        "tel":  "801-296-2100",
+        "service": "Clothing rental available, Cafeteria available, No patron housing available, Distribution center nearby",
+        "schedule": ["6:30 PM, 7:00 PM, 7:30 PM, 8:15 PM"]
+
+    },
+    {
+        "name": "Bountiful Utah Temple",
+        "address": "640 S Bountiful Blvd Bountiful UT 84010-1394 United States",
+        "tel":  "801-296-2100",
+        "service": "Clothing rental available, Cafeteria available, No patron housing available, Distribution center nearby",
+        "schedule": ["6:30 PM, 7:00 PM, 7:30 PM, 8:15 PM"]
+
+    },
+    {
+        "name": "Bountiful Utah Temple",
+        "address": "640 S Bountiful Blvd Bountiful UT 84010-1394 United States",
+        "tel":  "801-296-2100",
+        "service": "Clothing rental available, Cafeteria available, No patron housing available, Distribution center nearby",
+        "schedule": ["6:30 PM, 7:00 PM, 7:30 PM, 8:15 PM"]
+    }
+    ]
+}
+    

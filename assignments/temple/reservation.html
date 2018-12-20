@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="This is for CIT 250">
+    <meta name="author" content="Taylor Williams">
+
+    <title>CIT 230 Temple Inn & Suites | Taylor Williams </title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#datepicker" ).datepicker();
+        } );
+    </script>
+
+  </head>
+    <body>
+        <header class="homepage">
+            <div class="container">
+
+                    <a href="index.html"><img src="img/logo.png" alt="logo" class="logo"></a>
+            <nav>
+                <div class="container">
+                    <button onclick="toggleNavMenu()">&#9776;</button>
+                    <ul id="primaryNav" class="hide">
+                        <li>
+                        <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                        <a href="temple.html">Temple</a>
+                        </li>
+                        <li>
+                        <a href="reservation.html">Reservation</a>
+                        </li>
+                        <li class="dropdown"><a href="#" class="dropdown">Services</a>
+                            <ul class="subnav">
+                                <li><a href="reception.html">reception</a></li>
+                                <li><a href="fulltimemissionary.html">full-time temple missionary</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                        <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+                <div class="bookButton">
+                    <button><a href="reservation.html">Book Now</a></button>
+                </div>
+                
+            </div>
+        </header>
+        
+        <main class="container">
+            <section id="page">
+            <center>
+                <h1>Temple Inn & Suites</h1>
+            </center>
+           <div class="half">
+              
+           </div>
+        </section>
+
+        <div class="form">
+            <form action="/thankyou.html">
+                <fieldset>
+                    <legend>BOOK WITH US</legend>
+                        <div>
+
+                            <div>
+                                <label>Location
+                                    <select name="location" id="location" required="">
+                                        <option selected="" disabled="">Select One</option>
+                                        <option value="washingtondc">Washington, DC</option>
+                                        <option value="southcarolina">Columbia, SC </option>
+                                        <option value="northcarolina">Raleigh, NC</option>
+                                    </select>
+                                </label>
+                                
+                                <label>Checkin: <input type="date" name="Checkin" required=""></label> 
+                                <label>Checkout: <input type="date" name="Checkout" required=""></label> 
+
+                            </div>
+                            <div>
+                                <label>Registrant's Full Name: <input class="name" type="text" name="Name" required="" autofocus="" placeholder="Taylor Williams"></label> 
+                                <label>State:<input type="text" name="state" required=""></label> 
+                                <label>Country:<input type="text" name="country" required=""></label> 
+                            </div>
+                            <div>
+                                <label>Email:<input type="email" name="email" placeholder="name@email.com"></label> 
+                                <label>Phone Number:<input type="tel" name="phonenumber" placeholder="9712279458" required=""></label> 
+                                <label>Number of Rooms:<input type="number" name="number of rooms" min="1" required=""></label> 
+                                <label>Type Room(s):
+                                    <select name="typeroom" id="typeroom" required="">
+                                        <option selected="" disabled="">Select One</option>
+                                        <option value="double">Double</option>
+                                        <option value="Queen">Queen</option>
+                                        <option value="King">King</option>
+            
+                                    </select>
+                                </label>
+                                
+                            </div>
+                        </div>
+                        <br>
+                        <label>
+                        <input type="submit" name="submit" class="submitbtn" value="Send">
+                        <input type="reset" name="reset" class="resetbtn">
+                        </label>
+                </fieldset>
+            </form>
+
+        </section>
+
+        </main>
+        <footer>
+            <p>© Taylor Williams • Temple Inn & Suites</p>
+        </footer>
+        <script src="scripts/hamburger.js"></script>
+    </body>
+</html>

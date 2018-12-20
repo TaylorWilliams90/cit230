@@ -1,0 +1,39 @@
+@media only screen and (max-width: 600px){
+    h1{
+        text-align: center;
+    }
+
+    .hero{
+        display: block;
+        position: absolute;
+    }
+
+    button#showPhoneNav {
+        display: inline-block;
+        background: #c1c1c1;
+        background: -moz-linear-gradient(top, #c1c1c1 1%, #ffffff 49%, #ffffff 51%, #dddddd 100%);
+        background: -webkit-linear-gradient(top, #c1c1c1 1%,#ffffff 49%,#ffffff 51%,#dddddd 100%);
+        background: linear-gradient(to bottom, #c1c1c1 1%,#ffffff 49%,#ffffff 51%,#dddddd 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c1c1c1', endColorstr='#dddddd',GradientType=0 );
+        border-radius: 10px;
+        border-bottom: 2px solid blue;
+        width: 100%;
+        font-size: 18px;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    main{
+        margin: 0 !important;
+    }
+
+    main img{
+        width: 100% !important;
+    }
+
+    .pic {
+        padding-left: none;
+        width: 100%;
+    
+    }
+}
